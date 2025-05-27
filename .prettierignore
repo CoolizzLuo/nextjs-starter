@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules
+
+# Build outputs
+.next
+dist
+build
+out
+
+# Static files
+public
+
+# Test coverage and temporary cache
+coverage
+.cache
+.temp
+
+# Git hook configurations
+.husky
+
+# Editor settings and OS-specific files
+.vscode
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Lock files (optional: if you don't want to format them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Documentation (optional)
+docs/
