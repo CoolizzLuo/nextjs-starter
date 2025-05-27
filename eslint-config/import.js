@@ -54,8 +54,9 @@ module.exports = {
         },
       },
     ],
-    'import/newline-after-import': 'warn',
     'import/first': 'error',
+    'import/newline-after-import': 'warn',
+    'import/no-named-as-default': 'off',
     'unused-imports/no-unused-imports': 'error',
   },
 };

@@ -5,8 +5,8 @@ module.exports = {
   extends: ['plugin:tailwindcss/recommended'],
   settings: {
     tailwindcss: {
-      // The function used to combine class names, e.g., `cx` from `classnames` or `clsx`
-      callee: 'cx',
+      // The function used to combine class names, e.g., `cn` from `classnames` or `clsx`
+      callee: 'cn',
       // Path to your Tailwind CSS config file
       config: 'tailwind.config.ts',
       // CSS files to scan for class names
