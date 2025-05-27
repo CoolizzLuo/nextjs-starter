@@ -37,6 +37,11 @@ module.exports = {
             position: 'before',
           },
           {
+            pattern: '@/components/ui/**',
+            group: 'internal',
+            position: 'before',
+          },
+          {
             pattern: '@/components/**',
             group: 'internal',
             position: 'before',
