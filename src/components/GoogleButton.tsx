@@ -1,7 +1,7 @@
 'use client';
 
 import { signIn } from 'next-auth/react';
-import Button from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button';
 
 const GoogleButton = () => {
   return (

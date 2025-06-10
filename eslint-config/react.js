@@ -14,6 +14,7 @@ module.exports = {
       },
     ],
     'react/react-in-jsx-scope': 'off', // Not needed with Next.js or React 17+
+    'react/prop-types': 'off',
   },
   settings: {
     react: {

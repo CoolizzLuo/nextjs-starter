@@ -1,4 +1,4 @@
-import Button from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button';
 import GoogleButton from '@/components/GoogleButton';
 import ThemeToggle from '@/components/ThemeToggle';
 import { signIn, signOut } from '@/auth';

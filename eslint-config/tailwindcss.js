@@ -18,7 +18,7 @@ module.exports = {
       // Whether to skip the class attribute
       skipClassAttribute: false,
       // Classes to always include
-      whitelist: ['core\\-.*'],
+      whitelist: ['core\\-.*', 'animate\\-.*', 'toaster'],
       // HTML tags to consider for class names
       tags: [],
       // Regex to match class attributes, can be modified for custom attributes
